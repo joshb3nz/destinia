@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+   <!--=============== FAVICON ===============-->
+   <link rel="shortcut icon" href="assets/img/destinia-fox-icon-gris.png" type="image/x-icon">
+
+   <!--=============== REMIXICONS ===============-->
+   <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
+
+   <!--=============== CSS ===============-->
+   <link rel="stylesheet" href="assets/css/styles.css">
+
+   <title>Destinia</title>
+</head>
+
+<body>
+   <!--==================== HEADER (CABECERA) ====================-->
+   <header class="header" id="header">
+      <nav class="nav container">
+
+         <a href="#" class="nav__logo"> <img src="assets/img/destinia-fox-icon-gris.png" class="nav__logo-img"
+               alt="Icono de mascota de Destinia">
+            Destinia</a>
+
+         <div class="nav__menu" id="nav-menu">
+            <ul class="nav__list">
+               <li class="nav__item">
+                  <a href="#home" class="nav__link active-link">Inicio</a>
+               </li>
+
+               <li class="nav__item">
+                  <a href="#about" class="nav__link">Sobre Nosotros</a>
+               </li>
+
+               <li class="nav__item">
+                  <a href="#popular" class="nav__link">Popular</a>
+               </li>
+
+               <li class="nav__item">
+                  <a href="#explore" class="nav__link">Explorar</a>
+               </li>
+            </ul>
+
+            <!-- Botón de cierre -->
+            <div class="nav__close" id="nav-close">
+               <i class="ri-close-line"></i>
+            </div>
+         </div>
+
+         <!-- Botón de menú -->
+         <div class="nav__toggle" id="nav-toggle">
+            <i class="ri-menu-line"></i>
+         </div>
+      </nav>
+   </header>
+
+   <!--==================== MAIN (PRINCIPAL) ====================-->
+   <main class="main">
+      <!--==================== HOME (INICIO) ====================-->
+      <section class="home section" id="home">
+         <img src="assets/img/home-bg.jpg" alt="imagen de inicio" class="home__bg">
+         <div class="home__shadow"></div>
+
+         <div class="home__container container grid">
+            <div class="home__data">
+               <h3 class="home__subtitle">
+                  Bienvenido a Viajar
+               </h3>
+
+               <h1 class="home__title">
+                  Explora <br>
+                  El Mundo
+               </h1>
+
+               <p class="home__description">
+                  Vive los viajes explorando el mundo, descubre
+                  paraísos, islas, montañas y mucho
+                  más, obtén tu viaje ahora.
+               </p>
+
+               <a href="#" class="button">
+                  Comienza Tu Viaje <i class="ri-arrow-right-line"></i>
+               </a>
+            </div>
+
+            <div class="home__cards grid">
+               <article class="home__card">
+                  <img src="assets/img/home-trees.jpg" alt="imagen de inicio" class="home__card-img">
+                  <h3 class="home__card-title">Croacia</h3>
+                  <div class="home__card-shadow"></div>
+               </article>
+
+               <article class="home__card">
+                  <img src="assets/img/home-lake.jpg" alt="imagen de inicio" class="home__card-img">
+                  <h3 class="home__card-title">Islandia</h3>
+                  <div class="home__card-shadow"></div>
+               </article>
+
+               <article class="home__card">
+                  <img src="assets/img/home-mountain.jpg" alt="imagen de inicio" class="home__card-img">
+                  <h3 class="home__card-title">Italia</h3>
+                  <div class="home__card-shadow"></div>
+               </article>
+
+               <article class="home__card">
+                  <img src="assets/img/home-beach.jpg" alt="imagen de inicio" class="home__card-img">
+                  <h3 class="home__card-title">España</h3>
+                  <div class="home__card-shadow"></div>
+               </article>
+            </div>
+         </div>
+      </section>
+
+      <!--==================== ABOUT (SOBRE NOSOTROS) ====================-->
+      <section class="about section" id="about">
+         <div class="about__container container grid">
+            <div class="about__data">
+               <h2 class="section__title">
+                  Aprende Más <br>
+                  Sobre Viajar
+               </h2>
+
+               <p class="about__description">
+                  Todos los viajes alrededor del mundo son un gran
+                  placer y felicidad para cualquiera, disfruta
+                  de las vistas cuando viajas por el mundo. Viaja
+                  con seguridad y sin preocupaciones, consigue tu viaje y
+                  explora los paraísos del mundo.
+               </p>
+
+               <a href="#" class="button">
+                  Explora Viajes <i class="ri-arrow-right-line"></i>
+               </a>
+            </div>
+
+            <div class="about__image">
+               <img src="assets/img/about-beach.jpg" alt="imagen sobre nosotros" class="about__img">
+               <div class="about__shadow"></div>
+            </div>
+         </div>
+      </section>
+
+      <!--==================== POPULAR (POPULAR) ====================-->
+      <section class="popular section" id="popular">
+         <h2 class="section__title">
+            Disfruta La Belleza <br>
+            Del Mundo
+         </h2>
+
+         <div class="popular__container container grid">
+            <article class="popular__card">
+               <div class="popular__image">
+                  <img src="assets/img/popular-mountain.jpg" alt="imagen popular" class="popular__img">
+                  <div class="popular__shadow"></div>
+               </div>
+
+               <h2 class="popular__title">
+                  Logan Mountain
+               </h2>
+
+               <div class="popular__location">
+                  <i class="ri-map-pin-line"></i>
+                  <span>Canadá</span>
+               </div>
+            </article>
+
+            <article class="popular__card">
+               <div class="popular__image">
+                  <img src="assets/img/popular-forest.jpg" alt="imagen popular" class="popular__img">
+                  <div class="popular__shadow"></div>
+               </div>
+
+               <h2 class="popular__title">
+                  Spike Forest
+               </h2>
+
+               <div class="popular__location">
+                  <i class="ri-map-pin-line"></i>
+                  <span>Irlanda</span>
+               </div>
+            </article>
+
+            <article class="popular__card">
+               <div class="popular__image">
+                  <img src="assets/img/popular-lake.jpg" alt="imagen popular" class="popular__img">
+                  <div class="popular__shadow"></div>
+               </div>
+
+               <h2 class="popular__title">
+                  Garda Lake
+               </h2>
+
+               <div class="popular__location">
+                  <i class="ri-map-pin-line"></i>
+                  <span>Italia</span>
+               </div>
+            </article>
+         </div>
+      </section>
+
+      <section class="popular section" id="popular">
+         <h2 class="section__title">
+            Aprecia La Riqueza <br>
+            De Almería
+         </h2>
+
+         <div class="popular__container container grid">
+            <article class="popular__card">
+               <div class="popular__image">
+                  <img src="assets/img/playadelosmuertos.webp" alt="imagen popular"  class="popular__img">
+                  <div class="popular__shadow"></div>
+               </div>
+
+               <h2 class="popular__title">
+                  Playa de los Muertos
+               </h2>
+
+               <div class="popular__location">
+                  <i class="ri-map-pin-line"></i>
+                  <span>Cabo de Gata</span>
+               </div>
+            </article>
+
+            <article class="popular__card">
+               <div class="popular__image">
+                  <img src="assets/img/geodapulpi.jpg" alt="imagen popular" class="popular__img">
+                  <div class="popular__shadow"></div>
+               </div>
+
+               <h2 class="popular__title">
+                  Geoda de Pulpí
+               </h2>
+
+               <div class="popular__location">
+                  <i class="ri-map-pin-line"></i>
+                  <span>Pulpí</span>
+               </div>
+            </article>
+
+            <article class="popular__card">
+               <div class="popular__image">
+                  <img src="assets/img/bucear.jpg" alt="imagen popular" class="popular__img">
+                  <div class="popular__shadow"></div>
+               </div>
+
+               <h2 class="popular__title">
+                  Punta del Cuervo
+               </h2>
+
+               <div class="popular__location">
+                  <i class="ri-map-pin-line"></i>
+                  <span>Las Negras</span>
+               </div>
+            </article>
+         </div>
+      </section>
+
+      <!--==================== EXPLORE (EXPLORAR) ====================-->
+      <section class="explore section" id="explore">
+         <div class="explore__container">
+            <div class="explore__image">
+               <img src="assets/img/explore-beach.jpg" alt="imagen explorar" class="explore__img">
+               <div class="explore__shadow"></div>
+            </div>
+
+            <div class="explore__content container grid">
+               <div class="explore__data">
+                  <h2 class="section__title">
+                     Explora Los <br>
+                     Mejores Paraísos
+                  </h2>
+
+                  <p class="explore__description">
+                     Explorar paraísos como islas y
+                     valles al viajar por el mundo es una de
+                     las mejores experiencias al viajar, te
+                     ofrece armonía y paz y puedes
+                     disfrutarlo con gran confort.
+                  </p>
+               </div>
+
+               <div class="explore__user">
+                  <img src="assets/img/explore-perfil.png" alt="imagen explorar" class="explore__perfil">
+                  <span class="explore__name">Paul Jeams</span>
+               </div>
+            </div>
+         </div>
+      </section>
+
+      <!--==================== JOIN (ÚNETE) ====================-->
+      <section class="join section">
+         <div class="join__container container grid">
+            <div class="join__data">
+               <h2 class="section__title">
+                  Tu Viaje <br>
+                  Comienza Aquí
+               </h2>
+
+               <p class="join__description">
+                  Mantente al día con lo último
+                  en viajes e información sobre nosotros.
+               </p>
+
+               <form action="" class="join__form">
+                  <input type="email" placeholder="Introduce tu correo electrónico" class="join__input">
+
+                  <button class="join__button button">
+                     Suscríbete a Nuestro Boletín <i class="ri-arrow-right-line"></i>
+                  </button>
+               </form>
+            </div>
+
+            <div class="join__image">
+               <img src="assets/img/join-island.jpg" alt="imagen únete" class="join__img">
+               <div class="join__shadow"></div>
+            </div>
+         </div>
+      </section>
+   </main>
+
+   <!--==================== FOOTER (PIE DE PÁGINA) ====================-->
+   <footer class="footer">
+      <div class="footer__container container grid">
+         <div class="footer__content grid">
+            <div>
+               <a href="#" class="footer__logo">Viajes</a>
+
+               <p class="footer__description">
+                  Viaja con nosotros y explora <br>
+                  el mundo sin límites.
+               </p>
+            </div>
+
+            <div class="footer__data grid">
+               <div>
+                  <h3 class="footer__title">Sobre Nosotros</h3>
+
+                  <ul class="footer__links">
+                     <li>
+                        <a href="#" class="footer__link">Acerca de Nosotros</a>
+                     </li>
+
+                     <li>
+                        <a href="#" class="footer__link">Características</a>
+                     </li>
+
+                     <li>
+                        <a href="#" class="footer__link">Noticias y Blog</a>
+                     </li>
+                  </ul>
+               </div>
+
+               <div>
+                  <h3 class="footer__title">Compañía</h3>
+
+                  <ul class="footer__links">
+                     <li>
+                        <a href="#" class="footer__link">Preguntas Frecuentes</a>
+                     </li>
+
+                     <li>
+                        <a href="#" class="footer__link">Historia</a>
+                     </li>
+
+                     <li>
+                        <a href="#" class="footer__link">Testimonios</a>
+                     </li>
+                  </ul>
+               </div>
+
+               <div>
+                  <h3 class="footer__title">Contacto</h3>
+
+                  <ul class="footer__links">
+                     <li>
+                        <a href="#" class="footer__link">Centro de Llamadas</a>
+                     </li>
+
+                     <li>
+                        <a href="#" class="footer__link">Centro de Soporte</a>
+                     </li>
+
+                     <li>
+                        <a href="#" class="footer__link">Contáctanos</a>
+                     </li>
+                  </ul>
+               </div>
+
+               <div>
+                  <h3 class="footer__title">Soporte</h3>
+
+                  <ul class="footer__links">
+                     <li>
+                        <a href="#" class="footer__link">Política de Privacidad</a>
+                     </li>
+
+                     <li>
+                        <a href="#" class="footer__link">Términos y Servicios</a>
+                     </li>
+
+                     <li>
+                        <a href="#" class="footer__link">Pagos</a>
+                     </li>
+                  </ul>
+               </div>
+            </div>
+         </div>
+
+         <div class="footer__group">
+            <div class="footer__social">
+               <a href="https://www.facebook.com" target="_blank" class="footer__social-link">
+                  <i class="ri-facebook-line"></i>
+               </a>
+
+               <a href="https://www.instagram.com/" target="_blank" class="footer__social-link">
+                  <i class="ri-instagram-line"></i>
+               </a>
+
+               <a href="https://twitter.com/" target="_blank" class="footer__social-link">
+                  <i class="ri-twitter-line"></i>
+               </a>
+
+               <a href="https://www.youtube.com/" target="_blank" class="footer__social-link">
+                  <i class="ri-youtube-line"></i>
+               </a>
+            </div>
+
+            <span class="footer__copy">
+               &#169; Derechos de autor Bedimcode. Todos los derechos reservados
+            </span>
+         </div>
+      </div>
+   </footer>
+
+   <!--========== SCROLL UP (SUBIR) ==========-->
+   <a href="#" class="scrollup" id="scroll-up">
+      <i class="ri-arrow-up-line"></i>
+   </a>
+
+   <!--=============== SCROLLREVEAL ===============-->
+   <script src="assets/js/scrollreveal.min.js"></script>
+
+   <!--=============== MAIN JS ===============-->
+   <script src="assets/js/main.js"></script>
+</body>
+
+</html>
